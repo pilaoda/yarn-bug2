@@ -1,0 +1,12 @@
+{
+    "name": "apps",
+    "version": "1.0.0",
+    "workspaces": [
+        "packages/*"
+    ],
+    "resolutions": {
+        "lib-a": "portal:../proj1/packages/lib-a",
+        "lib-b": "portal:../proj1/packages/lib-b",
+        "lib-c": "portal:../proj1/packages/lib-c"
+    }
+}
